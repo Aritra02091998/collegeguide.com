@@ -24,19 +24,19 @@
         	</div>
         	<div id="b">
         		<div id="b1">
-        			<p id="b1-1"><a href="project_mba">MBA</a></p>
+        			<button id="b1-1"><a href="project_mba">MBA</a></button>
         		</div>
         		<div id="b2">
-        			<p id="b2-1"><a href="project_bba">BBA</a></p>
+        			<button id="b2-1"><a href="project_bba">BBA</a></button>
         		</div>
         		<div id="b3">
-        			<p id="b3-1"><a href="project_bsc">BSC</a></p>
+        			<button id="b3-1"><a href="project_bsc">BSc</a></button>
         		</div>
         		<div id="b4">
-        			<p id="b4-1"><a href="project_engi_page.php">ENGINEERING</a></p>
+        			<button id="b4-1"><a href="project_engg">ENGINEERING</a></button>
         		</div>
         		<div id="b5">
-        			<p id="b5-1"><a href="project_medi">MEDICAL</a></p>
+        			<button id="b5-1"><a href="project_medi">MEDICAL</a></button>
         		</div>
         	</div>
         	<div id="c">

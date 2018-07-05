@@ -24,7 +24,7 @@
         	</div>
         	<div id="b">
         		<div id="b1">
-        			<button id="b1-1"><a href="project_mba">MBA</a></button>
+        			<button id="b1-1"><a href="projectmba.php">MBA</a></button>
         		</div>
         		<div id="b2">
         			<button id="b2-1"><a href="project_bba">BBA</a></button>

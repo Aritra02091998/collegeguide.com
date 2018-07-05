@@ -1,0 +1,128 @@
+body{
+	background-image:url(https://www.goshen.edu/wp-content/uploads/sites/2/2015/05/gc.fall_.2014.321_2-e1416922763939-1024x594.jpg);
+	margin:0px;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	height: 100%;
+	background-size: cover;
+	background-position: center;
+	padding-left:100px;
+	color:white;
+	z-index: -3;
+}
+
+.header{
+	border:2px solid white;
+	background-color: rgba( 133, 193, 233 ,0.5);
+	position:relative;
+	font-weight: bolder;
+	top:30px;
+	left:320px;
+	width:450px;
+	padding-left:40px;
+	padding-right: 40px;
+	text-align: justify;
+	font-size:2em;
+	animation-name: headerbtn;
+	animation-duration: 3s;
+	animation-fill-mode: forward;
+	animation-timing-function: linear;
+}
+@keyframes headerbtn{
+	from {top:-100px;}
+	to{top:30px;}
+}
+
+select{
+	position: absolute;
+	left: 340px;
+	padding-left: 10px;
+}
+input{
+	position: absolute;
+	left: 280px;
+	padding-left: 10px;
+}
+form{
+	position: absolute;
+	left:-50px;
+	padding-left: 0px;
+	padding-top: 20px;
+	color:white;
+}
+
+.form{
+	position: relative;
+	top:110px;
+	left:290px;
+	/*background-color:#58d68d;*/
+	width:600px;
+	height:450px; 		
+}
+
+.section1{
+	background-color: rgba( 46, 64, 83 ,0.5);
+	position: relative;
+	top:-40px;
+	color:rgb(251, 252, 252);
+	font-weight: bold;
+	width: 600px;
+	height:290px;
+	border-radius:10px;
+	padding-left:70px;
+	padding-right: 30px;
+	padding-top: 20px;
+	animation-name: section1;
+	animation-duration: 3s;
+	animation-fill-mode: forwards;
+	animation-timing-function: ease-out;
+}
+@keyframes section1{
+	from{left:-400px;}
+	to{left:0px;}
+}
+#section2{
+	background-color:rgba( 93, 109, 126 ,0.5);
+	position: relative;
+	top:8px;
+	color:rgb(251, 252, 252);
+	width: 600px;
+	font-weight: bold;
+	height:340px;
+	border-radius:10px;
+	padding-left:70px;
+	padding-right: 30px;
+	padding-top: 70px;
+	animation-name: section2;
+	animation-duration: 3s;
+	animation-fill-mode: forwards;
+	animation-timing-function: ease-out;
+}
+@keyframes section2{
+	from{right:-400px;}
+	to{right:0px;}
+}
+fieldset{
+	width:550px;
+	height:240px;
+	padding-left: 40px;
+}
+
+.subandres{
+	padding:10px;
+}
+/*#nextbtn{
+	position: absolute;
+	left:580px;
+	top:280px;
+	border:5px solid red;
+	padding: 10px 20px;
+	animation-name:hoversection2;
+	animation-duration: 3s;
+	animation-timing-function: ease;
+}*/
+
+
+
+
+

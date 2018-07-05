@@ -4,6 +4,23 @@ button {
     box-shadow: 3px 3px #8a8a5c;
 }
 
+#logout {
+    height: 30px;
+    width:100px;
+    position: relative;
+    bottom: 30px;
+    left: 10px;
+}
+
+#button{
+    height:30px;
+    width:80px;
+    float: right;
+    position: relative;
+    bottom: 0px;
+    right:170px;    
+}
+
 a {
     text-decoration: none;
     font-style: italic;
@@ -55,12 +72,12 @@ a {
     width:412px;
     height:96px;
     border:solid black 2px;
-    background-color:rgb(250,150,70);
+    background-color:rgb(250,150,70);    
 }
-#a2-1{
-    position:relative;
-    text-align:center;
-    top:25px;
+
+#a2-1 {    
+    text-align: center;
+    top: 25px;
 }
 
 #b{

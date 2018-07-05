@@ -25,13 +25,11 @@
     while ($row=mysqli_fetch_array($result)) {
         
         if($email==$row['email'] && $password==$row['password']){
-            echo "<h1 align=center>Successfully logged in</h1>";
-            echo "<br/>";
-            echo 'Hello '.$row['name'].'<br/>';
+            
+            include 'project_dashboard.html'; 
             $flag=1;
             //setcookie("name",$row['name']);
             $_SESSION['name']=$row['name'];
-            echo"<h2 align=center><a href='project_dashboard.php'>click here to go to dashboard</a></h2>";
             break;
         }
     }

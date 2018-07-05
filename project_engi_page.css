@@ -1,0 +1,300 @@
+#a{
+    width:1820px;
+    height:200px;
+    border:solid black 2px;
+}
+#a1{
+    float:left;
+    width:400px;
+    height:196px;
+    border:solid black 2px;
+}
+#a1-1{
+    
+    width:400px;
+    height:196px;
+    
+}
+#a2{
+    float:left;
+    width:1000px;
+    height:196px;
+    border:solid black 2px;
+}
+#a2-1{
+    
+    width:1000px;
+    height:196px;
+    
+}
+#a3{
+    float:left;
+    width:408px;
+    height:196px;
+    border:solid black 2px;
+}
+#a3-1{
+    position:relative;
+    top:40px;
+    left:90px;
+    
+}
+#b{
+    width:1820px;
+    height:250px;
+    border:solid black 2px;
+}
+#b1{
+    float:left;
+    width:400px;
+    height:246px;
+    border:solid black 2px;
+}
+#b1-1{
+    
+    width:400px;
+    height:246px;
+    
+}
+#b2{
+    float:left;
+    width:600px;
+    height:246px;
+    border:solid black 2px;
+}
+#b2-1{
+    text-align:center;
+    font-size:26px;
+}
+#b3{
+    float:left;
+    width:808px;
+    height:246px;
+    border:solid black 2px;
+}
+#b3-1{
+    text-align:center;
+    font-size:18px;
+}
+#c{
+    width:1820px;
+    height:250px;
+    border:solid black 2px;
+}
+#c1{
+    float:left;
+    width:400px;
+    height:246px;
+    border:solid black 2px;
+}
+#c1-1{
+    
+    width:400px;
+    height:246px;
+    
+}
+#c2{
+    float:left;
+    width:600px;
+    height:246px;
+    border:solid black 2px;
+}
+#c2-1{
+    text-align:center;
+    font-size:26px;
+}
+#c3{
+    float:left;
+    width:808px;
+    height:246px;
+    border:solid black 2px;
+}
+#c3-1{
+    text-align:center;
+    font-size:18px;
+}
+#d{
+    width:1820px;
+    height:250px;
+    border:solid black 2px;
+}
+#d1{
+    float:left;
+    width:400px;
+    height:246px;
+    border:solid black 2px;
+}
+#d1-1{
+    
+    width:400px;
+    height:246px;
+    
+}
+#d2{
+    float:left;
+    width:600px;
+    height:246px;
+    border:solid black 2px;
+}
+#d2-1{
+    text-align:center;
+    font-size:26px;
+}
+#d3{
+    float:left;
+    width:808px;
+    height:246px;
+    border:solid black 2px;
+}
+#d3-1{
+    text-align:center;
+    font-size:18px;
+}
+#e{
+    width:1820px;
+    height:250px;
+    border:solid black 2px;
+}
+#e1{
+    float:left;
+    width:400px;
+    height:246px;
+    border:solid black 2px;
+}
+#e1-1{
+    
+    width:400px;
+    height:246px;
+    
+}
+#e2{
+    float:left;
+    width:600px;
+    height:246px;
+    border:solid black 2px;
+}
+#e2-1{
+    text-align:center;
+    font-size:26px;
+}
+#e3{
+    float:left;
+    width:808px;
+    height:246px;
+    border:solid black 2px;
+}
+#e3-1{
+    text-align:center;
+    font-size:18px;
+}
+#f{
+    width:1820px;
+    height:250px;
+    border:solid black 2px;
+}
+#f1{
+    float:left;
+    width:400px;
+    height:246px;
+    border:solid black 2px;
+}
+#f1-1{
+    
+    width:400px;
+    height:246px;
+    
+}
+#f2{
+    float:left;
+    width:600px;
+    height:246px;
+    border:solid black 2px;
+}
+#f2-1{
+    text-align:center;
+    font-size:26px;
+}
+#f3{
+    float:left;
+    width:808px;
+    height:246px;
+    border:solid black 2px;
+}
+#f3-1{
+    text-align:center;
+    font-size:18px;
+}
+#g{
+    width:1820px;
+    height:250px;
+    border:solid black 2px;
+}
+#g1{
+    float:left;
+    width:400px;
+    height:246px;
+    border:solid black 2px;
+}
+#g1-1{
+    
+    width:400px;
+    height:246px;
+    
+}
+#g2{
+    float:left;
+    width:600px;
+    height:246px;
+    border:solid black 2px;
+}
+#g2-1{
+    text-align:center;
+    font-size:26px;
+}
+#g3{
+    float:left;
+    width:808px;
+    height:246px;
+    border:solid black 2px;
+}
+#g3-1{
+    text-align:center;
+    font-size:18px;
+}
+#h{
+    width:1820px;
+    height:250px;
+    border:solid black 2px;
+}
+#h1{
+    float:left;
+    width:400px;
+    height:246px;
+    border:solid black 2px;
+}
+#h1-1{
+    
+    width:400px;
+    height:246px;
+    
+}
+#h2{
+    float:left;
+    width:600px;
+    height:246px;
+    border:solid black 2px;
+}
+#h2-1{
+    text-align:center;
+    font-size:26px;
+}
+#h3{
+    float:left;
+    width:808px;
+    height:246px;
+    border:solid black 2px;
+}
+#h3-1{
+    text-align:center;
+    font-size:18px;
+}

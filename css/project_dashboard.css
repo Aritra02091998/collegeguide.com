@@ -72,12 +72,12 @@ a {
     width:412px;
     height:96px;
     border:solid black 2px;
-    background-color:rgb(250,150,70);    
+    background-color:rgb(250,150,70);
 }
-
-#a2-1 {    
-    text-align: center;
-    top: 25px;
+#a2-1{
+    position:relative;
+    text-align:center;
+    top:25px;
 }
 
 #b{

@@ -10,7 +10,7 @@
         die("Connection failed: " . mysqli_connect_error());
     }
 
-    $sql = "SELECT * FROM register";
+    $sql = "SELECT * FROM users";
     $result = mysqli_query($conn, $sql);
 
     if (!$result) {

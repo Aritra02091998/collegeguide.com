@@ -13,7 +13,7 @@
     $email=$_POST['email'];
     $password=$_POST['password'];
     $phone=$_POST['phone'];
-    $sql = "INSERT INTO register (name, email, password,phone) VALUES ('$name', '$email', '$password','$phone')";
+    $sql = "INSERT INTO users (name, email, password,phone) VALUES ('$name', '$email', '$password','$phone')";
 
     if (mysqli_query($conn, $sql)) {
         	echo "<h1 align=center>Registration successful</h1>";

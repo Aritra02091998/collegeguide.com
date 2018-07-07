@@ -26,7 +26,6 @@ body{
 	height: 100%;
 	background-size: cover;
 	background-position: center;
-	padding-left:100px;
 	color:white;
 	z-index: -3;
 }

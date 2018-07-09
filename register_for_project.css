@@ -1,0 +1,94 @@
+body{
+	background-image:url(https://www.digitalplatforms.co.za/wp-content/uploads/2015/11/Website-Design-Background.png);	
+	margin:0px;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	height: 100%;
+	background-size: cover;
+	background-position: center;
+	padding-left:100px;
+	color:white;
+	z-index: -3;
+}
+
+h4{
+	text-align: center;
+	position: relative;
+	left:-22px;
+}
+
+select{
+	position: absolute;
+	left: 266px;
+	padding-left: 10px;
+}
+input{
+	position: absolute;
+	left: 280px;
+	padding-left: 10px;
+}
+form{
+	position: absolute;
+	left:-50px;
+	padding-left: 0px;
+	padding-top: 20px;
+	color:white;
+}
+
+.form{
+	position: relative;
+	top:110px;
+	left:290px;
+	/*background-color:#58d68d;*/
+	width:600px;
+	height:450px; 		
+}
+
+#section1{
+	background-color: rgba(  33, 33, 33 ,0.5);
+	position: absolute;
+	top:70px;
+	left:-316px;
+	color:rgb(251, 252, 252);
+	font-weight: bold;
+	width: 540px;
+	height:650px;
+	border-radius:10px;
+	padding-left:36px;
+	padding-right:110px;
+	padding-top: 20px;
+	
+	/*animation-name: section1;
+	animation-duration: 3s;
+	animation-fill-mode: forwards;
+	animation-timing-function: ease-out;*/
+}
+/*@keyframes section1{
+	from{left:-400px;}
+	to{left:0px;}*/
+}
+
+/*@keyframes section2{
+	from{left:-400px;}
+	to{left:0px;}*/
+}
+
+
+.subandres{
+	padding:10px;
+}
+#next{
+	
+	left:423px;
+	top:334px;
+	
+	
+	animation-name:hoversection2;
+	animation-duration: 3s;
+	animation-timing-function: ease;
+}
+
+
+
+
+

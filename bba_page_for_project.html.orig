@@ -1,9 +1,13 @@
 <!DOCTYPE html>
 <html>
     <head>
-	<link rel="shortcut icon" href="img/shortlogo.png"/>
+<<<<<<< HEAD
+        <link rel="stylesheet" href="/collegeguide.com/css/bootstrap.css">
+        <link rel="stylesheet" href="/collegeguide.com/css/college_details.css">
+=======
         <link rel="stylesheet" href="css/bootstrap.css">
-        <link rel="stylesheet" href="css/college_details.css">
+        <link rel="stylesheet" href="css/engineering_page_for_project.css">
+>>>>>>> dc944eb532d9f1e1fb547293dbac96e8bb406749
         <title>Collegeguide.com</title>
     </head>
     

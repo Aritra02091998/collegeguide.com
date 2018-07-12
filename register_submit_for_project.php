@@ -21,8 +21,12 @@
     $mobile_numbers=$_POST['mobile_number'];
     $citys=$_POST['city'];
     
-    $sql="INSERT INTO users_details(education_stream,course,specialization,email,password,full_name,mobile_number,user_city)
-    			VALUES('$streams','$courses','$specializations','$emails','$passwords','$full_names','$mobile_numbers',' $citys')";
+    $statep1=$_POST['state1'];
+    $statep2=$_POST['state2'];
+    
+    
+    $sql="INSERT INTO users_details(education_stream,course,specialization,email,password,full_name,mobile_number,user_city,state1,state2)
+    			VALUES('$streams','$courses','$specializations','$emails','$passwords','$full_names','$mobile_numbers',' $citys','$statep1','$statep2')";
     
      if (mysqli_query($conn, $sql)) {                                     
         	echo "Registration successful";                                 

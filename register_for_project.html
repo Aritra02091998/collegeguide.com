@@ -2,9 +2,58 @@
     <head>
         <title>REGISTRATION PAGE</title>
         <link rel="stylesheet" href="/project/register_for_project.css">
+        <script src="js/jquery-3.3.1.min.js"></script>
+        <script src="js/script_for_register.js"></script>
     </head>
-    <body>
-        
+    <body style="margin:0px">
+    <!--STARTING OF NAVIGATION MENU-->
+    	  <div class="menudropdown">
+		
+		<ul>
+			<li class><a href="#">HOME</a></li>		
+			
+			<li class><a href="#">ABOUT</a>
+				<ul>
+						<li><a href="#">TEAM</a></li>
+						<li><a href="#">BODY</a>
+						<ul class="inside2">							
+							<li ><a href="#">LINK1</a></li>
+							<li><a href="#">LINK2</a></li>
+						</ul>							
+						</li>
+						<li><a href="#">LINK1</a></li>
+						<li><a href="#">LINK2</a></li>
+						<li><a href="#">LINK3</a></li>
+
+				</ul>
+			</li>
+			
+			<li class><a href="#">THINGS</a>
+				<ul>
+
+						<li><a href="#">things1</a></li>
+						<li><a href="#">things2</a></li>
+						<li><a href="#">things3</a></li>
+						<li><a href="#">LINK2</a></li>
+						<li><a href="#">LINK3</a></li>
+				</ul>
+			</li>
+		
+			<li class><a href="#">CONTACT</a>
+				<ul>					
+						<li><a href="#">things1</a></li>
+						<li><a href="#">things2</a></li>
+						<li><a href="#">things3</a></li>
+						<li><a href="#">LINK2</a></li>
+						<li><a href="#">LINK3</a></li>
+				</ul>
+			</li>
+		</ul>		
+		
+		  </div>
+		  <!--end of navigation menu-->
+		  
+        <!--start of form-->
         <div class="form">
        	
             <form action="register_submit_for_project.php" method="POST">
@@ -15,27 +64,23 @@
                         <legend>COURSE DETAILS</legend>
                         <br>
                         EDUCATION STREAM:
-                        <select name="education_stream" onchange="configuredropdown(education_stream)">        
+                        <select id="education_stream" name="education_stream" > 
+                        	 <option value=" ">SELECT</option>       
                             <option value="engineering">ENGINEERING</option>
                             <option value="medical"> MEDICAL</option>
                             <option value="law">LAW</option>
-                            <option value="media">ANIMATION</option>    
+                            
                         </select>    
                         <br><br><br>
                         COURSE: 
-                        <select name="course" >        
-                            <option value="btech">B.TECH</option>
-                            <option value="mtech"> M.TECH</option>
-                            <option value="mbbs">MBBS</option>
-                            <option value="llb">LLB</option>    
+                        <select id="course" name="course" >        
+                       
+                       
                         </select>    
                         <br><br><br>
-                        SPECIALIZATION: 
-                        <select name="specialization">        
-                            <option value="computer_science">COMPUTER SCIENCE</option>
-                            <option value="electronics"> ELECTRONICS</option>
-                            <option value="civil">CIVIL</option>
-                            <option value="biotechnology">BIOTECHNOLOGY</option>    
+                        <label id="specshide">SPECIALIZATION:</label> 
+                        <select id="specialization" name="specialization">        
+                               
                         </select>    
                            <br><br>
                           
@@ -53,9 +98,26 @@
                         <br><br>
                         MOBILE NUMBER:<input type="text" name="mobile_number" placeholder="MOBILE NUMBER">
                         <br><br>
-                        CITY:          <input type="text" name="city" placeholder="YOUR CITY">
+                         CITY:          <input type="text" name="city" placeholder="YOUR CITY">
                         <br><br>
+                        STATE PREFERENCE 1:<select name="state1">
+                        							<option value="">SELECT</option>
+                        							<option value="west_bengal">WEST BENGAL</option>
+                        							<option value="orissa">ORISSA</option>
+                        							<option value="maharashtra">MAHARASHTRA</option>
+                        							
+                        						</select>
+                        <br><br>
+                        STATE PREFERENCE 2:<select name="state2">
+                        							<option value="">SELECT</option>
+                        							<option value="bihar">BIHAR</option>
+                        							<option value="uttar_pradesh">UTTAR PRADESH</option>
+                        							<option value="gujrat">GUJRAT</option>
+                        							
+                        						 </select>
+                      
                   </fieldset>
+                  <br>
                     <div class="subandres">
                         <input type="submit" name="submit" value="submit">
                         <br><br>
@@ -64,27 +126,8 @@
                 </div>            
             </form>    
          </div>
+         <!--end of form-->
     
-         <script>
-            function configuredropdown(education_stream) {
-                var stream=["engineering","medical","law"];
-                
-                var engineering=["btech","mtech","be"];
-                
-                var btech=["cse","ece","it"];
-                var mtech=["ai","ml"];
-                var be=["arch","mech"];
-                
-                switch(education_stream.value) {
-            
-                
-                
-                   }
-            }        
         
-        
-           
-    
-        </script>
     </body>
 </html>

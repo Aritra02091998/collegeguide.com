@@ -18,8 +18,8 @@
                 <h2>Some of The Best LLB Colleges</h2>
             </div>
             <div>
-                <div>
-                    <h3>The University Law College</h3>
+                <div id="1">
+                    <h3>THE UNIVERSITY LAW COLLEGE</h3>
                 </div>
                 <div>
                     <div>
@@ -51,8 +51,8 @@
             <br/>
             <br/>                
             <div>
-                <div>
-                    <h3>The New Law College</h3>
+                <div id="2">
+                    <h3>THE NEW LAW COLLEGE</h3>
                 </div>
                 <div>
                     <div>
@@ -85,8 +85,8 @@
             </div>
             <br/><br/>
             <div>
-                <div>
-                    <h3>The University of Allahabad</h3>
+                <div id="3">
+                    <h3>THE UNIVERSITY OF ALLAHABAD</h3>
                 </div>
                 <div>
                     <div>
@@ -119,8 +119,8 @@
             <br/>
             <br/> 
             <div>
-                <div>
-                    <h3>The University of Delhi</h3>
+                <div id="4">
+                    <h3>THE UNIVERSITY OF DELHI</h3>
                 </div>
                 <div>
                     <div>
@@ -155,30 +155,3 @@
         </div>
     </body>
 </html>
-    
-    
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
